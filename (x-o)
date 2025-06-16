@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: aqua;
+      }
+      button {
+        padding: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .countiner {
+        border: solid black;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="countiner">
+      <br />
+      <div class="1">
+        <button id="button1"></button>
+        <button id="button2"></button>
+        <button id="button3"></button>
+      </div>
+      <br />
+      <div class="2">
+        <button id="button4"></button>
+        <button id="button5"></button>
+        <button id="button6"></button>
+      </div>
+      <br />
+      <div class="3">
+        <button id="button7"></button>
+        <button id="button8"></button>
+        <button id="button9"></button>
+      </div>
+
+      <br />
+      <h1 class="winer">start</h1>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./(x-o).js"></script>
+  </body>
+</html>
